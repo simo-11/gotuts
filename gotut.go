@@ -3,5 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Welcome to Go");
+	for i := 0; i < 3; i++ {
+		fmt.Printf("Welcome to Go %d\n", i)
+	}
 }
